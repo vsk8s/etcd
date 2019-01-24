@@ -1,0 +1,26 @@
+Source: etcd
+Section: utils
+Priority: optional
+Maintainer: Maximilian Falkenstein <maximilian.falkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>=9), golang-go, rsync, binutils
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/vs-eth/kubernetes.git
+Vcs-Browser: https://github.com/vs-eth/kubernetes
+
+Package: etcd-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: etcd-server contains the etcd key-value store server
+  etcd is a distributed reliable key-value store for the most critical data of
+  a distributed system, with a focus on being simple, secure, fast and
+  reliable. etcd is written in Go and uses the Raft consensus algorithm to
+  manage a highly-available replicated log.
+
+Package: etcd-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: etcd-client contains the etcdctl etcd client.
+  etcd is a distributed reliable key-value store for the most critical data of
+  a distributed system, with a focus on being simple, secure, fast and
+  reliable. etcd is written in Go and uses the Raft consensus algorithm to
+  manage a highly-available replicated log.
