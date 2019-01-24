@@ -9,4 +9,4 @@ build:
     name: packets
     expire_in: 3 months
     paths:
-      - *.deb
+      - '*.deb'
