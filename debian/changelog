@@ -4,7 +4,7 @@ etcd (3.3.11-1~1.gbp2cf9e5) unstable; urgency=medium
   * Port package to gbp-style repo
   * Package etcd client and rename base to etcd (was 'etcd-server')
 
- -- Maximilian Falkenstein <maximilian.falkenstein@vseth.ethz.ch>  Thu, 24 Jan 2019 15:36:54 +0100
+ -- Maximilian Falkenstein <maximilian.falkenstein@sos.ethz.ch>  Thu, 24 Jan 2019 15:36:54 +0100
 
 etcd-server (3.3.9-0) unstable; urgency=medium
 
