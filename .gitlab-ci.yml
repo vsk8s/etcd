@@ -1,0 +1,8 @@
+image: soseth/debian-ci-base:stretch
+
+build:
+  stage: build
+  script:
+    - gbp buildpackage --git-debian-branch=$CI_COMMIT_REF_NAME -b -us -uc
+  artifacts:
+    - ../*.deb
