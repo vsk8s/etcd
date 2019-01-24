@@ -3,7 +3,7 @@ image: soseth/debian-ci-base:stretch
 build:
   stage: build
   script:
-    - gbp buildpackage --git-debian-branch=$CI_COMMIT_REF_NAME -b -us -uc
+    - gbp buildpackage --git-ignore-branch -b -us -uc
   artifacts:
     name: packets
     expire_in: 3 months
