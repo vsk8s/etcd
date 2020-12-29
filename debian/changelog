@@ -1,3 +1,9 @@
+etcd (3.4.14-1) unstable; urgency=medium
+
+  * Bump to upstream release 3.4.14
+
+ -- Maximilian Falkenstein <maximilian.falkenstein@sos.ethz.ch>  Tue, 29 Dec 2020 12:24:41 +0100
+
 etcd (3.4.9-1) unstable; urgency=medium
 
   * Bump to upstream release 3.4.9
