@@ -6,9 +6,10 @@ export ETCD_SETUP_GOPATH=1
 	dh $@
 
 override_dh_auto_build:
-	./build
+	./build.sh
 	strip bin/etcd
 	strip bin/etcdctl
+	strip bin/etcdutl
 
 override_dh_auto_test:
 	/bin/true
