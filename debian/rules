@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export GO111MODULE=on
+export GOPROXY=
 export ETCD_SETUP_GOPATH=1
 
 %:
