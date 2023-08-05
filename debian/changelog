@@ -1,3 +1,9 @@
+etcd (3.5.9-1) unstable; urgency=medium
+
+  * Bump to upstream release 3.5.9
+
+ -- Maximilian Falkenstein <maximilian.falkenstein@sos.ethz.ch>  Sat, 05 Aug 2023 16:51:00 +0200
+
 etcd (3.5.7-1) unstable; urgency=medium
 
   * Bump to upstream release 3.5.7
